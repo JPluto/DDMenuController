@@ -75,6 +75,7 @@
     
     if (!_pan) {
         UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
+        pan.delegate = (id<UIGestureRecognizerDelegate>)self;
         [self.view addGestureRecognizer:pan];
         _pan = pan;
     }
