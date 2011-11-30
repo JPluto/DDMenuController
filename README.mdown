@@ -30,8 +30,8 @@ DDMenuController is a subclass of UINavigationController, so you can push and po
 
 # Demo
 
-![Left](http://cld.devin.me/CEIs)
-![Right](http://cld.devin.me/CEJ0)
+![Left](https://github.com/devindoty/DDMenuController/blob/master/DDMenuController/DDMenuController/DemoImages/left.png)
+![Right](https://github.com/devindoty/DDMenuController/blob/master/DDMenuController/DDMenuController/DemoImages/right.png)
 
 
 # License
