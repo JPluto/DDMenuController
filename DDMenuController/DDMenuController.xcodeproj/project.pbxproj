@@ -18,6 +18,8 @@
 		033A464A14869403002014C7 /* LeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A464914869403002014C7 /* LeftController.m */; };
 		033A464D1486940E002014C7 /* FeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A464C1486940E002014C7 /* FeedController.m */; };
 		033A46511486AA23002014C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A46501486AA23002014C7 /* QuartzCore.framework */; };
+		03B5CAE41486DDD900F111BB /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B5CAE21486DDD900F111BB /* left.png */; };
+		03B5CAE51486DDD900F111BB /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B5CAE31486DDD900F111BB /* right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		033A464B1486940E002014C7 /* FeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedController.h; sourceTree = "<group>"; };
 		033A464C1486940E002014C7 /* FeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedController.m; sourceTree = "<group>"; };
 		033A46501486AA23002014C7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		03B5CAE21486DDD900F111BB /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		03B5CAE31486DDD900F111BB /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		033A462B148691F6002014C7 /* DDMenuController */ = {
 			isa = PBXGroup;
 			children = (
+				03B5CAD81486DDB700F111BB /* DemoImages */,
 				033A463C1486936D002014C7 /* Controllers */,
 				033A463E14869377002014C7 /* Views */,
 				033A463D14869372002014C7 /* Model */,
@@ -165,6 +170,15 @@
 			path = RightController;
 			sourceTree = "<group>";
 		};
+		03B5CAD81486DDB700F111BB /* DemoImages */ = {
+			isa = PBXGroup;
+			children = (
+				03B5CAE21486DDD900F111BB /* left.png */,
+				03B5CAE31486DDD900F111BB /* right.png */,
+			);
+			path = DemoImages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				033A4630148691F6002014C7 /* InfoPlist.strings in Resources */,
+				03B5CAE41486DDD900F111BB /* left.png in Resources */,
+				03B5CAE51486DDD900F111BB /* right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +351,7 @@
 				033A463B148691F6002014C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
