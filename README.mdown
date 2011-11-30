@@ -2,7 +2,37 @@
 
 Created by **Devin Doty**
 
-**DDMenuController** is a similar menu controller to the one found in Facebook and Path 2.0 on iOS.
+**DDMenuController** is a similar menu controller to the one found in Facebook and Path 2.0 on iOS. Allows for panning like Path 2.0, as well as a left or right view. Built using ARC, and currently supports iPhone and iPod Touch running iOS 5. 
+
+# Installation
+
+Just add DDMenuController.m/h into your project.
+
+# How to implement
+
+DDMenuController is a subclass of UINavigationController, so you can push and pop views the same. If a left or right view is revealed and push is called, the menu controller will animate to it nicely from the revealed state. Creating a menu controller is the same as a UINavigationController with two additional properties, leftController and rightController. If either or both of these is set a button will be created on the nav for it and panning will be enabled.
+
+	#import "DDMenuController.h"
+
+	// create the content view controller
+	UIViewController *contentController = [[UIViewController alloc] init];
+	
+	// create a DDMenuController setting the content as the root
+    DDMenuController *menuController = [[DDMenuController alloc] initWithRootViewController:mainController];
+
+	// set the left view controller property of the menu controller
+    UIViewController *leftController = [[UIViewController alloc] init];
+    menuController.leftController = leftController;
+
+	// set the left view controller property of the menu controller
+    UIViewController *rightController = [[UIViewController alloc] init];
+    menuController.rightController = rightController;
+
+# Demo
+
+![Left](http://cld.devin.me/CEIs)
+![Right](http://cld.devin.me/CEJ0)
+
 
 # License
 
