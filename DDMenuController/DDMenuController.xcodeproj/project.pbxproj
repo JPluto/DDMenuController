@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033A4626148691F6002014C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A4625148691F6002014C7 /* UIKit.framework */; };
+		033A4628148691F6002014C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A4627148691F6002014C7 /* Foundation.framework */; };
+		033A462A148691F6002014C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A4629148691F6002014C7 /* CoreGraphics.framework */; };
+		033A4630148691F6002014C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033A462E148691F6002014C7 /* InfoPlist.strings */; };
+		033A4632148691F6002014C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A4631148691F6002014C7 /* main.m */; };
+		033A4636148691F6002014C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A4635148691F6002014C7 /* AppDelegate.m */; };
+		033A4644148693E8002014C7 /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A4643148693E8002014C7 /* DDMenuController.m */; };
+		033A4647148693F8002014C7 /* RightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A4646148693F8002014C7 /* RightController.m */; };
+		033A464A14869403002014C7 /* LeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A464914869403002014C7 /* LeftController.m */; };
+		033A464D1486940E002014C7 /* FeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A464C1486940E002014C7 /* FeedController.m */; };
+		033A46511486AA23002014C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A46501486AA23002014C7 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		033A4621148691F6002014C7 /* DDMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033A4625148691F6002014C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		033A4627148691F6002014C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		033A4629148691F6002014C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		033A462D148691F6002014C7 /* DDMenuController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDMenuController-Info.plist"; sourceTree = "<group>"; };
+		033A462F148691F6002014C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		033A4631148691F6002014C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		033A4633148691F6002014C7 /* DDMenuController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDMenuController-Prefix.pch"; sourceTree = "<group>"; };
+		033A4634148691F6002014C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		033A4635148691F6002014C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		033A4642148693E8002014C7 /* DDMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMenuController.h; sourceTree = "<group>"; };
+		033A4643148693E8002014C7 /* DDMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenuController.m; sourceTree = "<group>"; };
+		033A4645148693F8002014C7 /* RightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightController.h; sourceTree = "<group>"; };
+		033A4646148693F8002014C7 /* RightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightController.m; sourceTree = "<group>"; };
+		033A464814869403002014C7 /* LeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftController.h; sourceTree = "<group>"; };
+		033A464914869403002014C7 /* LeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftController.m; sourceTree = "<group>"; };
+		033A464B1486940E002014C7 /* FeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedController.h; sourceTree = "<group>"; };
+		033A464C1486940E002014C7 /* FeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedController.m; sourceTree = "<group>"; };
+		033A46501486AA23002014C7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		033A461E148691F6002014C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033A46511486AA23002014C7 /* QuartzCore.framework in Frameworks */,
+				033A4626148691F6002014C7 /* UIKit.framework in Frameworks */,
+				033A4628148691F6002014C7 /* Foundation.framework in Frameworks */,
+				033A462A148691F6002014C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033A4616148691F6002014C7 = {
+			isa = PBXGroup;
+			children = (
+				033A46501486AA23002014C7 /* QuartzCore.framework */,
+				033A462B148691F6002014C7 /* DDMenuController */,
+				033A4624148691F6002014C7 /* Frameworks */,
+				033A4622148691F6002014C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		033A4622148691F6002014C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033A4621148691F6002014C7 /* DDMenuController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033A4624148691F6002014C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				033A4625148691F6002014C7 /* UIKit.framework */,
+				033A4627148691F6002014C7 /* Foundation.framework */,
+				033A4629148691F6002014C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		033A462B148691F6002014C7 /* DDMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				033A463C1486936D002014C7 /* Controllers */,
+				033A463E14869377002014C7 /* Views */,
+				033A463D14869372002014C7 /* Model */,
+				033A4634148691F6002014C7 /* AppDelegate.h */,
+				033A4635148691F6002014C7 /* AppDelegate.m */,
+				033A462C148691F6002014C7 /* Supporting Files */,
+				033A4642148693E8002014C7 /* DDMenuController.h */,
+				033A4643148693E8002014C7 /* DDMenuController.m */,
+			);
+			path = DDMenuController;
+			sourceTree = "<group>";
+		};
+		033A462C148691F6002014C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				033A462D148691F6002014C7 /* DDMenuController-Info.plist */,
+				033A462E148691F6002014C7 /* InfoPlist.strings */,
+				033A4631148691F6002014C7 /* main.m */,
+				033A4633148691F6002014C7 /* DDMenuController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		033A463C1486936D002014C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				033A4641148693D2002014C7 /* RightController */,
+				033A4640148693C5002014C7 /* LeftController */,
+				033A463F148693AF002014C7 /* FeedController */,
+			);
+			name = Controllers;
+			path = Classes/Controllers;
+			sourceTree = "<group>";
+		};
+		033A463D14869372002014C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = Classes/Model;
+			sourceTree = "<group>";
+		};
+		033A463E14869377002014C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = Classes/Views;
+			sourceTree = "<group>";
+		};
+		033A463F148693AF002014C7 /* FeedController */ = {
+			isa = PBXGroup;
+			children = (
+				033A464B1486940E002014C7 /* FeedController.h */,
+				033A464C1486940E002014C7 /* FeedController.m */,
+			);
+			path = FeedController;
+			sourceTree = "<group>";
+		};
+		033A4640148693C5002014C7 /* LeftController */ = {
+			isa = PBXGroup;
+			children = (
+				033A464814869403002014C7 /* LeftController.h */,
+				033A464914869403002014C7 /* LeftController.m */,
+			);
+			path = LeftController;
+			sourceTree = "<group>";
+		};
+		033A4641148693D2002014C7 /* RightController */ = {
+			isa = PBXGroup;
+			children = (
+				033A4645148693F8002014C7 /* RightController.h */,
+				033A4646148693F8002014C7 /* RightController.m */,
+			);
+			path = RightController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		033A4620148691F6002014C7 /* DDMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033A4639148691F6002014C7 /* Build configuration list for PBXNativeTarget "DDMenuController" */;
+			buildPhases = (
+				033A461D148691F6002014C7 /* Sources */,
+				033A461E148691F6002014C7 /* Frameworks */,
+				033A461F148691F6002014C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDMenuController;
+			productName = DDMenuController;
+			productReference = 033A4621148691F6002014C7 /* DDMenuController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		033A4618148691F6002014C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 033A461B148691F6002014C7 /* Build configuration list for PBXProject "DDMenuController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 033A4616148691F6002014C7;
+			productRefGroup = 033A4622148691F6002014C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033A4620148691F6002014C7 /* DDMenuController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033A461F148691F6002014C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033A4630148691F6002014C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		033A461D148691F6002014C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033A4632148691F6002014C7 /* main.m in Sources */,
+				033A4636148691F6002014C7 /* AppDelegate.m in Sources */,
+				033A4644148693E8002014C7 /* DDMenuController.m in Sources */,
+				033A4647148693F8002014C7 /* RightController.m in Sources */,
+				033A464A14869403002014C7 /* LeftController.m in Sources */,
+				033A464D1486940E002014C7 /* FeedController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		033A462E148691F6002014C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033A462F148691F6002014C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		033A4637148691F6002014C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		033A4638148691F6002014C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		033A463A148691F6002014C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDMenuController/DDMenuController-Prefix.pch";
+				INFOPLIST_FILE = "DDMenuController/DDMenuController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		033A463B148691F6002014C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDMenuController/DDMenuController-Prefix.pch";
+				INFOPLIST_FILE = "DDMenuController/DDMenuController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033A461B148691F6002014C7 /* Build configuration list for PBXProject "DDMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033A4637148691F6002014C7 /* Debug */,
+				033A4638148691F6002014C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033A4639148691F6002014C7 /* Build configuration list for PBXNativeTarget "DDMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033A463A148691F6002014C7 /* Debug */,
+				033A463B148691F6002014C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 033A4618148691F6002014C7 /* Project object */;
+}
